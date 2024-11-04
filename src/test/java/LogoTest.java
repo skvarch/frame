@@ -22,7 +22,7 @@ public class LogoTest {
     public void testLogoPresence() {
         driver.get("https://www.google.com");
 
-        // Проверяем наличие элемента на странице
+        // Проверяем наличие элемента на странице...
         WebElement image = null;
         String testName = this.getClass().getSimpleName();
         try {
